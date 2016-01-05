@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B5D7E6D11C3B1BA60095572C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D7E6D01C3B1BA60095572C /* main.m */; };
+		B5D7E6D91C3B1E620095572C /* TestCObject.c in Sources */ = {isa = PBXBuildFile; fileRef = B5D7E6D71C3B1E620095572C /* TestCObject.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,9 @@
 /* Begin PBXFileReference section */
 		B5D7E6CD1C3B1BA60095572C /* SOC++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "SOC++"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5D7E6D01C3B1BA60095572C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5D7E6D71C3B1E620095572C /* TestCObject.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TestCObject.c; sourceTree = "<group>"; };
+		B5D7E6D81C3B1E620095572C /* TestCObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCObject.h; sourceTree = "<group>"; };
+		B5D7E6DA1C3B37C40095572C /* SOC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SOC.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				B5D7E6D01C3B1BA60095572C /* main.m */,
+				B5D7E6D71C3B1E620095572C /* TestCObject.c */,
+				B5D7E6D81C3B1E620095572C /* TestCObject.h */,
+				B5D7E6DA1C3B37C40095572C /* SOC.h */,
 			);
 			path = "SOC++";
 			sourceTree = "<group>";
@@ -118,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5D7E6D91C3B1E620095572C /* TestCObject.c in Sources */,
 				B5D7E6D11C3B1BA60095572C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
